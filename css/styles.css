@@ -140,7 +140,9 @@ p {
 }
 
 /* Our Portfolio section */
-
+.portfolio {
+  background-color: #ffffff;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
