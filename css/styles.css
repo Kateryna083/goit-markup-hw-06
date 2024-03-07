@@ -305,6 +305,8 @@ img {
 
 .footer {
   background: #2e2f42;
+  /* width: 1440px;
+height: 312px; */
   padding: 100px 0;
 }
 .footer-logo {
@@ -315,6 +317,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-color {
   color: #f4f4fd;
@@ -322,7 +327,5 @@ img {
 }
 .footer-text {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
   min-width: 264px;
 }
