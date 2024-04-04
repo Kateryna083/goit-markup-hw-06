@@ -577,10 +577,14 @@ img {
 }
 .mediateka {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .logo-wrap {
-  margin-right: 120px;
+  margin-top: 96px;
+  margin-right: 16px;
+  margin-left: 16px;
+  text-align: center;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -601,15 +605,24 @@ img {
 }
 .footer-text {
   color: #f4f4fd;
-  max-width: 264px;
+  /* max-width: 264px; */
+  min-width: 288px;
+  text-align: left;
+}
+.footer-media-wrap {
+  display: flex;
+  flex-direction: column;
 }
 .media-wrap {
   width: 208px;
   height: 80px;
-  margin-top: 110px;
+  /* margin-top: 110px;
   margin-bottom: 122px;
   margin-left: 120px;
-  margin-right: 120px;
+  margin-right: 120px; */
+  margin-bottom: 72px;
+  margin-top: 72px;
+  text-align: center;
 }
 .text-media {
   font-family: "Roboto", sans-serif;
@@ -654,7 +667,9 @@ img {
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 24px; */
 }
 .footer-input {
   border: 1px solid #fff;
@@ -700,6 +715,7 @@ img {
   margin-left: 24px;
   cursor: pointer;
   border: none;
+  margin-top: 16px;
 }
 .footer-text-input {
   font-weight: 500;
